@@ -1,0 +1,121 @@
+﻿/* toca organizarlos alfabeticamente*/
+a
+{
+	color: #22BCE0;
+	font-family: Arial;
+	font-size: 16px;
+}
+body
+{
+	background: #EEEEEE;
+	font-family: Arial;
+	font-size: 16px;
+}
+figure
+{
+	margin-top : 0;
+	margin-left : 0;
+}
+/*este estilo es para todas las etiquetas header*/
+header
+{
+	/*comentario*/
+	background: #344B54;
+	color: white;
+	overflow: hidden;
+	padding: 0.5em;
+	position: relative;
+}
+header #avatar
+{
+	margin: 0.5em 0.5em 0 0; 
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+header #avatar img
+{
+	width : 55px;
+	border-radius : 50%; /*deja redondeada la imagen*/
+}
+header figure
+{
+	float: left;
+	overflow: hidden;
+	display: inline-block;
+}
+header h1
+{
+	/* un em es un tamaño relativo a una letra cercana 
+		EM-REM (la segunda es con respecto a la raiz)
+	*/
+	font-size : 1.2em; 
+	/* 1.2 es un factor, significa 20% más grande que la medida em*/ 
+	font-weight: normal;
+	margin: 0 70px 0 0; /*horario desde arriba*/
+	display: inline-block;
+}
+header #logo 
+{
+	position: static;
+	margin-top: 0;
+	margin-left:0;
+}
+/* estilo para lo que esté dentro 
+de la etiqueta header, un id = logo y un tag img */
+
+header #logo img
+{
+	
+	border-right : 1px solid white;
+	padding-right: 0.5em;
+	
+	width: 52px;
+	display: inline-block;
+	
+	/* el ancho es automaticamente calculado por html5*/
+}
+nav
+{
+	background : #80BCA3;
+	overflow: hidden;
+	position: relative;
+}
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul li 
+{
+	display: inline-block;
+	margin: 0 1em 0 0;
+}
+nav ul li a
+{
+	color: white;
+	padding: 0.5em;
+	text-decoration: none;
+	display: block;
+	padding: 0.5em;
+}
+nav ul #publicar_nav
+{
+	position: absolute;
+	right: 0;
+	top:-0.1em;
+}
+nav ul #publicar_nav a
+{
+	background: #22BCE0;
+	border-radius: 5px;
+	box-shadow rgba(0,0,0,0.5) 5px 5px 20px; 
+	/*rgba , el cuarto parametro da transparencia, 
+	los otros parametros del shadow son desplazamiento, 
+	el ultimo parametro es difuminación*/
+	text-shadow: rgba(0,0,0,0.5) 2px 2px 5px; 
+	padding: 0.6em 0.8em;
+	
+}

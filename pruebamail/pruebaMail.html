@@ -1,0 +1,36 @@
+<!doctype html> 
+<html lang = "es">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Prueba mail </title>
+<script language = "javascript">
+	function changeMail()
+	{
+		var form = document.getElementById("frmMail");
+		var mail = document.getElementById("txtMail");
+		form.action = "mailto:"+mail.value;
+		alert(mail.value);
+		form.submit();
+	}
+</script>
+	</head>
+	<body>
+		<header>
+			<h1>Formulario de prueba</h1>
+		</header>
+		<section>
+			<article>
+				<form method = "post" id = "frmMail" action="#">
+					
+					<ul>
+						<li> correo : <input type="text" id = "txtMail" name = "txtMail"/> </li>
+						<li> <input type="button" id = "btnMail" name = "btnMail" value = "Enviar" onClick = "changeMail();"/> </li>
+					</ul>
+				</form>
+			</article>
+		</section>
+		<footer>
+			Con @pepito
+		</footer>
+	</body>
+</html>
