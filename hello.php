@@ -4,11 +4,11 @@
 	</head>
 	
 	<body>
-		<h1>
+		<h2>
 			<?php
-				echo "this is the header one";
+				echo "better the second one";
 			?>
-		</h1>
+		</h2>
 	</body>
 
 </html>
